@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     
     <meta charset="utf-8">
@@ -11,13 +12,13 @@
 
     <title>Harry O Productions</title>
 
+    <script type="text/javascript" src="//use.typekit.net/nha1euc.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <script type="text/javascript" src="//use.typekit.net/nha1euc.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-    
     <link href="css/modern-business.css" rel="stylesheet">
     <link href="css/freelancer.css" rel="stylesheet">
 
@@ -35,7 +36,7 @@
 
 <body>
 
-<!-- Navigation -->
+   <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -81,63 +82,130 @@
         <!-- /.container -->
     </nav>
     <hr>
-
+    
 
     <!-- Page Content -->
     <div class="container">
-        <div class="bs-example col-md-4">
-            <h4>Harry O Productions</h4>
-            <p>For Inquires call 702.767.0699 or fill out the form below:</p>     
-           
-            <form action ="https://www.paypal.com/cgi-bin/webscr" method="post">
-                <div class="form-group">
-                    <label for="inputName">Name</label>
-                    <input type="name" class="form-control" id="inputName" placeholder="Name">
+
+        <!-- Team Members -->
+        <div class="row team">
+            <div class="col-md-4">
+                <h4>Harry O Productions</h4>
+                <p>For Inquires call 702.767.0699 or fill out the form below:</p> 
+
+                <form action ="https://www.paypal.com/cgi-bin/webscr" method="post">
+                    <div class="form-group">
+                        <label for="inputName">Name</label>
+                        <input type="name" class="form-control" id="inputName" placeholder="Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="inputPhone">Phone</label>
+                        <input type="phone" class="form-control" id="inputPhone" placeholder="Phone">
+                    </div>                
+
+                    <div class="form-group">
+                        <label for="inputEvent">Event Type</label>
+                        <select class="form-control" name="Event" id="Event" required>
+                            <option value="Wedding" selected>Wedding</option>
+                            <option value="Corporate">Corporate</option>
+                            <option value="Bar Mitzvah">Bar Mitzvah</option>
+                            <option value="Bat Mitzvah">Bat Mitzvah</option>
+                            <option value="Birthday">Birthday</option>
+                            <option value="Other">Other</option>      
+                    </div>
+
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="HT44MDECX6EHE">
+                    <br><br>
+                    <input type="submit" src="" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class="btn btn-primary" value="Pay with Paypal">
+                    <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+                    </form>                
                 </div>
+            </div>
+        </div>
 
-                <div class="form-group">
-                    <label for="inputEmail">Email</label>
-                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                </div>
-
-                <div class="form-group">
-                    <label for="inputPhone">Phone</label>
-                    <input type="phone" class="form-control" id="inputPhone" placeholder="Phone">
-                </div>                
-
-                <div class="form-group">
-                    <label for="inputEvent">Event Type</label>
-                    <select class="form-control" name="Event" id="Event" required>
-                        <option value="Wedding" selected>Wedding</option>
-                        <option value="Corporate">Corporate</option>
-                        <option value="Bar Mitzvah">Bar Mitzvah</option>
-                        <option value="Bat Mitzvah">Bat Mitzvah</option>
-                        <option value="Birthday">Birthday</option>
-                        <option value="Other">Other</option>      
-                </div>
-
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="HT44MDECX6EHE">
-                <br><br>
-                <input type="submit" src="" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" class="btn btn-primary" value="Pay with Paypal">
-                <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
-            </form>   
-        </div>                      
+    
     </div>
+    
+            <!-- Footer -->
+    <footer class="text-center footer">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+
+
+                    <div class="footer-col col-md-4 left-align">
+                        <h3 class="footer-text-h1">Quick Links</h3>
+                        <p class="footer-text"><a href="index.html">Home</a>
+                            <br><a href="about.html">Our Team</a>
+                            <br><a href="coporate.html">Corporate Events</a>
+                            <br><a href="weddings.html">Corporate Events</a>
+                            <br><a href="bar_batmitzvahs.html">Bar/Batmitzvahs</a>
+                            <br><a href="contact.html">Contact Us</a>
+                        </p>
+                    </div>
+
+
+                    <div class="footer-col col-md-4 left-align">
+                        <h3 class="footer-text-h1">Contact</h3>
+                        <p class="footer-text">Harry O Productions
+                            <br>702.767.0699<br>
+                            <a class="footer-text-link" href="#">Email Us</a>
+                        </p>
+                    </div>
 
 
 
+                    <div class="footer-col col-md-4 left-align">
+                        <h3 class="footer-text-h1">Reviews</h3>
+
+                        <a href="http://www.weddingwire.com/biz/harry-productions-las-vegas/aaee1cf7be779573.html"><img src="images/wedding_wire.png" width="130"></a>
+                            <br>
+                        <a href="http://www.theknot.com/Vendors/Vegas-City-DJs/Profile/DJS/119/532168/profile"><img src="images/the_knot.png" width="70"></a>
+                            <br>
+                        <a href="http://www.yelp.com/biz/dj-harry-o-vegas-city-djs-las-vegas"><img src="images/yelp.png" width="90"></a>
+                    </div>
+
+
+
+                    <div class="footer-col col-md-4 left-align">
+                        <h3 class="footer-text-h1">Social</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="http://www.linkedin.com/pub/harry-nelson/8/230/630" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+                <p class="copyright">Copyright &copy; Harry O Productions</p>
+            </div>
+        </div>
+    </footer>
+        
+        <!-- /.row -->
+
+
+    <!-- /.container -->
 
     <!-- jQuery Version 1.11.0 -->
     <script src="js/jquery-1.11.0.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <!-- Do not edit these files! In order to set the email address and subject line for the contact form go to the bin/contact_me.php file. -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
 
 </body>
 
