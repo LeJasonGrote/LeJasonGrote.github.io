@@ -48,7 +48,7 @@ body {
 
 .mybody p {
     /*font-family: "brandon-grotesque", sans-serif;*/
-    font-size: 1.2em;
+    font-size: 1.1em;
     line-height: 1.5em;
     font-style: normal;
     font-weight: 300;
@@ -70,6 +70,12 @@ body {
 
 }
 
+.awards img {
+    width: 80px;
+    margin: 20px;
+    /*padding: 5px;*/
+}
+
 .img-inline-block {
     display: inline;
 }
@@ -78,7 +84,7 @@ body {
     font-weight: 600;
     margin-top: 30px;
     text-transform: uppercase;
-    letter-spacing: .1em;
+    letter-spacing: .05em;
 }
 
 .img-portfolio {
