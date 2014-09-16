@@ -38,7 +38,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "omnes-pro", sans-serif;
+    font-family: "proxima-nova", sans-serif;
 }
 
 .carousel-caption h2 {
@@ -115,7 +115,7 @@ header img {
 header .intro-text .name {
     display: block;
     /*text-transform: uppercase;*/
-    font-family: "omnes-pro", sans-serif;
+    font-family: "proxima-nova", sans-serif;
     font-size: 3em;
     font-weight: 300;
     line-height: 1em;
@@ -169,7 +169,7 @@ header .intro-text .skills {
 .navbar {
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-family: "omnes-pro", sans-serif;
+    font-family: "proxima-nova", sans-serif;
     font-weight: 600;
     font-size: 1em;
     padding-top: 20px;

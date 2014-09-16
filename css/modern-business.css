@@ -115,7 +115,7 @@ header.carousel {
 
 .carousel-caption h2 {
     /*margin-bottom: 90px;*/
-    font-family: "omnes-pro", sans-serif;
+    font-family: "proxima-nova", sans-serif;
     font-weight: 200;
 
 
@@ -123,12 +123,12 @@ header.carousel {
 
 .carousel-caption2 h2 {
     margin-bottom: 90px;
-    font-family: "omnes-pro", sans-serif;
+    font-family: "proxima-nova", sans-serif;
     font-weight: 200;
 }
 
 .carousel-caption a {
-    font-family: "omnes-pro", sans-serif;
+    font-family: "proxima-nova", sans-serif;
     position: relative;
     bottom: 100px;
 
@@ -167,7 +167,7 @@ header.carousel2 {
 
 
 .carousel-caption2 a {
-    font-family: "omnes-pro", sans-serif;
+    font-family: "proxima-nova", sans-serif;
     position: relative;
     bottom: 55px;
     font-size: 14px;
