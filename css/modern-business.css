@@ -37,6 +37,7 @@ body {
 
 .services h4 {
     font-family: "proxima-nova", sans-serif;
+    text-rendering: optimizeLegibility;
 }
 
 .tiling {
@@ -54,6 +55,7 @@ body {
     padding: 15px;
     letter-spacing: .01em;
     text-align: center;
+    text-rendering: optimizeLegibility;
 }
 
 
@@ -66,6 +68,7 @@ body {
     /*padding: 15px;*/
     letter-spacing: .02em;
     text-align: left;
+    text-rendering: optimizeLegibility;
 
 }
 
@@ -84,6 +87,7 @@ body {
     font-weight: 400;
     margin-top: 30px;
     font-size: 24px;
+    text-rendering: optimizeLegibility;
 }
 
 .img-portfolio {
@@ -117,6 +121,7 @@ header.carousel {
     /*margin-bottom: 90px;*/
     font-family: "proxima-nova", sans-serif;
     font-weight: 200;
+    text-rendering: optimizeLegibility;
 
 
 }
@@ -125,13 +130,14 @@ header.carousel {
     margin-bottom: 90px;
     font-family: "proxima-nova", sans-serif;
     font-weight: 200;
+    text-rendering: optimizeLegibility;
 }
 
 .carousel-caption a {
     font-family: "proxima-nova", sans-serif;
     position: relative;
     bottom: 100px;
-
+    text-rendering: optimizeLegibility;
     font-size: 12px;
     letter-spacing: .7px;
 }
@@ -172,6 +178,7 @@ header.carousel2 {
     bottom: 55px;
     font-size: 14px;
     letter-spacing: .5px;
+    text-rendering: optimizeLegibility;
 }
 
 header.carousel2 .item,
