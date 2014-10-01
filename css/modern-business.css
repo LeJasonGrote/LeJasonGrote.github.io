@@ -241,7 +241,8 @@ footer h3 {
 
 .left-align {
     text-align: left;
-    width: 200px;
+    width: 175px;
+    padding-right: 20px;
 }
 
 .left-align img {
