@@ -12,7 +12,7 @@ body {
 
 p {
     /*font-family: "brandon-grotesque", sans-serif;*/
-    font-size: 1.2em;
+    font-size: 16px;
     color: #5f6974;
     line-height: 1.5em;
     font-style: normal;
@@ -101,7 +101,7 @@ hr.star-primary:after {
 header {
     text-align: center;
     color: #fff;
-    
+
 }
 
 header .container {

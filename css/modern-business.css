@@ -14,7 +14,7 @@ body {
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
     /*font-family: "brandon-grotesque", sans-serif;*/
-    
+
 }
 
 .contact-form {
@@ -32,12 +32,43 @@ body {
 .mybody {
     text-align: center;
     /*font-family: "brandon-grotesque", sans-serif;*/
-    
+
 }
 
-.services h4 {
+.services {
     font-family: "proxima-nova", sans-serif;
     text-rendering: optimizeLegibility;
+    float: none;
+    margin: auto;
+}
+
+    .services h1 {
+        font-size: 36px;
+        color: #18bc9c;
+    }
+    .services h2 {
+        /*font-weight: 100;*/
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .services p {
+        font-size: 16px;
+        margin: auto;
+    }
+
+.service-list h4 {
+    margin-bottom: 20px;
+    line-height: inherit;
+}
+
+.service-list ul {
+    padding: 0;
+}
+
+.service-list li {
+  color: #5f6974;
+  font-size: 14px;
+  /*font-weight: 100;*/
 }
 
 .tiling {
@@ -49,7 +80,7 @@ body {
 
 .mybody p {
     /*font-family: "brandon-grotesque", sans-serif;*/
-    font-size: 1.2em;
+    font-size: 14px;
     /*line-height: 1.4em;*/
     font-weight: 300;
     padding: 15px;
@@ -61,7 +92,7 @@ body {
 
 .team p {
     /*font-family: "brandon-grotesque", sans-serif;*/
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: 1.5em;
     font-style: normal;
     font-weight: 300;
@@ -74,8 +105,7 @@ body {
 
 .awards img {
     width: 80px;
-    margin: 20px;
-    /*padding: 5px;*/
+    margin: 20px 20px 20px 0;
 }
 
 .img-inline-block {
@@ -105,7 +135,7 @@ body {
 
 .subtitle {
     display: inline;
-    font-size: 1.2em;
+    font-size: 14px;
     letter-spacing: .03em;
     text-transform: capitalize;
     padding-left: 20px;
